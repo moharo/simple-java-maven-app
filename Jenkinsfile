@@ -42,7 +42,7 @@ stage('Exec Maven') {
 	}
 }
 
-stage('Exec Maven') {
+stage('Exec Repo') {
 	steps {
 		rtPublishBuildInfo (
 		  serverId: "ARTIFACTORY_SERVER"
