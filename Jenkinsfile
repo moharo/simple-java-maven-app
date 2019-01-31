@@ -37,7 +37,7 @@ stage('Exec Maven') {
 			pom: "simple-java-maven-app/pom.xml",
 			goals: 'clean install',
 			deployerId:"MAVEN_DEPLOYER",
-			resolverId:"MAVEN_DEPLOYER"
+			resolverId:"MAVEN_RESOLVER"
 		)
 	}
 }
