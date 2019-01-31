@@ -34,7 +34,7 @@ stage('Exec Maven') {
 	steps {
 		rtMavenRun(
 			tool: "Maven3.6.0",
-			pom: 'maven-example/pom.xml,
+			pom: "simple-java-maven-app/pom.xml",
 			goals: 'clean install',
 			deployerId:"MAVEN_DEPLOYER",
 			resolverId:"MAVEN_DEPLOYER"
